@@ -14,8 +14,6 @@ const toDos = createSlice({
 
 const store = configureStore({ reducer: toDos.reducer });
 
-console.log(toDos.actions);
-
 export const { add, remove } = toDos.actions;
 
 export default store;
